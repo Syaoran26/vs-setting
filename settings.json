@@ -1,0 +1,66 @@
+{
+  "editor.fontFamily": "SF Mono, JetBrains Mono, monospace",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 12,
+  "editor.tabSize": 2,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.minimap.enabled": false,
+  "editor.cursorBlinking": "expand",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.wordWrap": "off",
+  "editor.multiCursorLimit": 11000,
+  "editor.lineHeight": 1.7,
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": ["comment", "keyword", "storage", "entity.other.attribute-name"],
+        "settings": {
+          "fontStyle": "italic"
+        }
+      }
+    ]
+  },
+
+  "workbench.colorTheme": "Dracula Theme",
+  "workbench.iconTheme": "vscode-icons",
+  "workbench.startupEditor": "none",
+  "workbench.statusBar.visible": false,
+  "window.menuBarVisibility": "toggle",
+
+  "reactSnippets.settings.importReactOnTop": false,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "git.autofetch": true,
+  "explorer.confirmDelete": false,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "liveServer.settings.donotShowInfoMsg": true,
+
+  "powermode.shake.enabled": false,
+  "powermode.explosions.backgroundMode": "image",
+  "powermode.enabled": true,
+  "powermode.explosions.customExplosions": ["https://media.giphy.com/media/SV0LuYdSMmKEklpZKs/giphy.gif"],
+  "powermode.explosions.duration": 1000,
+  "powermode.explosions.size": 8,
+  "powermode.explosions.maxExplosions": 1,
+  "powermode.explosions.offset": 0.6,
+  "powermode.combo.counterEnabled": "hide",
+  "powermode.combo.timerEnabled": "hide",
+
+  "prettier.printWidth": 120,
+  "prettier.singleQuote": true,
+  "prettier.tabWidth": 2,
+  "prettier.trailingComma": "all",
+
+  "terminal.integrated.fontFamily": "MesloLGM Nerd Font",
+  "cSpell.language": "en,vi",
+  "cSpell.userWords": ["clsx", "Zalo"],
+  "terminal.integrated.env.windows": {},
+  "vscode_custom_css.imports": ["file:///C:/Users/ADMIN/.vscode/vs-style.css"],
+  "console-ninja.featureSet": "Community",
+  "explorer.compactFolders": false,
+  "tabnine.experimentalAutoImports": true,
+  "eslint.codeActionsOnSave.rules": null
+}
