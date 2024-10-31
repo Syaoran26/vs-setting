@@ -38,7 +38,9 @@
   "typescript.updateImportsOnFileMove.enabled": "always",
 
   "git.autofetch": true,
-  "diffEditor.ignoreTrimWhitespace": true,
+  "explorer.confirmDelete": false,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "liveServer.settings.donotShowInfoMsg": true,
 
   "powermode.shake.enabled": false,
   "powermode.explosions.backgroundMode": "image",
@@ -56,10 +58,13 @@
   "prettier.tabWidth": 2,
   "prettier.trailingComma": "all",
 
+  "terminal.integrated.fontFamily": "MesloLGM Nerd Font",
   "cSpell.language": "en,vi",
-  "cSpell.userWords": ["clsx", "Summarise", "Tiktok", "Zalo"],
+  "cSpell.userWords": ["clsx", "tiktok", "Zalo"],
   "terminal.integrated.env.windows": {},
-  "vscode_custom_css.imports": ["file:///C:/Users/syaoran.nguyen/.vscode/vs-style.css"],
+  "vscode_custom_css.imports": ["file:///C:/Users/ADMIN/.vscode/vs-style.css"],
+  "console-ninja.featureSet": "Community",
   "explorer.compactFolders": false,
+  "tabnine.experimentalAutoImports": true,
   "eslint.codeActionsOnSave.rules": null
 }
