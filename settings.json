@@ -26,6 +26,7 @@
   "workbench.iconTheme": "vscode-icons",
   "workbench.startupEditor": "none",
   "workbench.statusBar.visible": false,
+  "workbench.panel.showLabels": false,
   "window.menuBarVisibility": "toggle",
 
   "reactSnippets.settings.importReactOnTop": false,
@@ -33,10 +34,11 @@
     "javascript": "javascriptreact"
   },
   "javascript.updateImportsOnFileMove.enabled": "always",
+
+  "typescript.updateImportsOnFileMove.enabled": "always",
+
   "git.autofetch": true,
-  "explorer.confirmDelete": false,
-  "diffEditor.ignoreTrimWhitespace": false,
-  "liveServer.settings.donotShowInfoMsg": true,
+  "diffEditor.ignoreTrimWhitespace": true,
 
   "powermode.shake.enabled": false,
   "powermode.explosions.backgroundMode": "image",
@@ -54,13 +56,10 @@
   "prettier.tabWidth": 2,
   "prettier.trailingComma": "all",
 
-  "terminal.integrated.fontFamily": "MesloLGM Nerd Font",
   "cSpell.language": "en,vi",
-  "cSpell.userWords": ["clsx", "Zalo"],
+  "cSpell.userWords": ["clsx", "Summarise", "Tiktok", "Zalo"],
   "terminal.integrated.env.windows": {},
-  "vscode_custom_css.imports": ["file:///C:/Users/ADMIN/.vscode/vs-style.css"],
-  "console-ninja.featureSet": "Community",
+  "vscode_custom_css.imports": ["file:///C:/Users/syaoran.nguyen/.vscode/vs-style.css"],
   "explorer.compactFolders": false,
-  "tabnine.experimentalAutoImports": true,
   "eslint.codeActionsOnSave.rules": null
 }
