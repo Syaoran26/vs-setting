@@ -27,20 +27,30 @@
   "workbench.startupEditor": "none",
   "workbench.statusBar.visible": false,
   "workbench.panel.showLabels": false,
+
   "window.menuBarVisibility": "toggle",
 
-  "reactSnippets.settings.importReactOnTop": false,
+  "explorer.confirmDelete": false,
+  "explorer.compactFolders": false,
+
+  "git.autofetch": true,
+  "git.enableSmartCommit": true,
+
   "emmet.includeLanguages": {
     "javascript": "javascriptreact"
   },
   "javascript.updateImportsOnFileMove.enabled": "always",
-
   "typescript.updateImportsOnFileMove.enabled": "always",
 
-  "git.autofetch": true,
-  "explorer.confirmDelete": false,
+  "terminal.integrated.fontFamily": "MesloLGM Nerd Font",
+  "terminal.integrated.env.windows": {},
+
   "diffEditor.ignoreTrimWhitespace": false,
-  "liveServer.settings.donotShowInfoMsg": true,
+
+  "prettier.printWidth": 120,
+  "prettier.singleQuote": true,
+  "prettier.tabWidth": 2,
+  "prettier.trailingComma": "all",
 
   "powermode.shake.enabled": false,
   "powermode.explosions.backgroundMode": "image",
@@ -53,18 +63,16 @@
   "powermode.combo.counterEnabled": "hide",
   "powermode.combo.timerEnabled": "hide",
 
-  "prettier.printWidth": 120,
-  "prettier.singleQuote": true,
-  "prettier.tabWidth": 2,
-  "prettier.trailingComma": "all",
+  "vscode_custom_css.imports": ["file:///C:/Users/ADMIN/.vscode/vs-style.css"],
 
-  "terminal.integrated.fontFamily": "MesloLGM Nerd Font",
+  "reactSnippets.settings.importReactOnTop": false,
+  "liveServer.settings.donotShowInfoMsg": true,
   "cSpell.language": "en,vi",
   "cSpell.userWords": ["clsx", "tiktok", "Zalo"],
-  "terminal.integrated.env.windows": {},
-  "vscode_custom_css.imports": ["file:///C:/Users/ADMIN/.vscode/vs-style.css"],
   "console-ninja.featureSet": "Community",
-  "explorer.compactFolders": false,
   "tabnine.experimentalAutoImports": true,
-  "eslint.codeActionsOnSave.rules": null
+  "eslint.codeActionsOnSave.rules": null,
+  "[csharp]": {
+    "editor.defaultFormatter": "ms-dotnettools.csharp"
+  }
 }
