@@ -22,8 +22,8 @@
     ]
   },
 
-  "workbench.colorTheme": "Dracula Theme",
-  "workbench.iconTheme": "vscode-icons",
+  "workbench.colorTheme": "Material Theme Palenight High Contrast",
+  "workbench.iconTheme": "material-icon-theme",
   "workbench.startupEditor": "none",
   "workbench.statusBar.visible": false,
   "workbench.panel.showLabels": false,
